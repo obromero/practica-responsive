@@ -1,0 +1,176 @@
+                * {
+                    margin: 0;
+                    box-sizing: border-box;
+                }
+                
+                html,
+                body {
+                    height: 100%;
+                }
+                
+                .top {
+                    background-color: #1CD1B0;
+                    height: 38px;
+                    padding: 10px;
+                }
+                
+                .encabezado {
+                    background-color: #00669F;
+                    height: 100px;
+                    padding: 28px;
+                }
+                
+                .container {
+                    max-width: 1300px;
+                    margin: 0 auto;
+                }
+                
+                .cards {
+                    margin: 50px 50px 50px 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    gap: 15px;
+                }
+                
+                .imagenCard {
+                    width: 100%;
+                }
+                
+                .cardBody {
+                    width: 33vh;
+                    background-color: #F3F3F3;
+                    border-radius: 25px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    position: relative;
+                }
+                
+                .corazon {
+                    position: absolute;
+                    top: 20px;
+                    left: 15px;
+                }
+                
+                .avatar {
+                    margin-top: -50px;
+                }
+                
+                .avatar2 {
+                    width: 128px;
+                    height: 128px;
+                    margin-top: -70px;
+                }
+                
+                .cardBody p {
+                    padding: 10px;
+                    text-align: left;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1rem;
+                    min-height: 229px;
+                }
+                
+                h2 {
+                    padding: 15px;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1.5rem;
+                }
+                
+                button {
+                    background-color: #00669F;
+                    color: white;
+                    width: 130px;
+                    height: 50px;
+                    margin: 15px 0 15px 0;
+                }
+                
+                footer {
+                    background-color: #00669F;
+                    color: white;
+                    height: 50px;
+                    padding: 15px;
+                    text-align: center;
+                }
+                
+                @media (min-width:360px) {
+                    .cardBody {
+                        width: 80vh;
+                        background-color: #F3F3F3;
+                        border-radius: 25px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        position: relative;
+                        gap: 20px;
+                    }
+                    .cardBody p {
+                        min-height: 154px;
+                    }
+                }
+                
+                @media (min-width:768px) {
+                    .cardBody {
+                        width: 80vh;
+                        background-color: #F3F3F3;
+                        border-radius: 25px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        position: relative;
+                        gap: 20px;
+                    }
+                    h2 {
+                        padding: 15px;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 4rem;
+                    }
+                    .cardBody p {
+                        padding: 10px;
+                        text-align: left;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 2rem;
+                        min-height: 229px;
+                    }
+                    .avatar {
+                        margin-top: -68px;
+                    }
+                    .avatar2 {
+                        width: 128px;
+                        height: 128px;
+                        margin-top: -133px;
+                    }
+                }
+                
+                @media (min-width:900px) {
+                    .cardBody {
+                        width: 55vh;
+                        background-color: #F3F3F3;
+                        border-radius: 25px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        position: relative;
+                        gap: 20px;
+                    }
+                    .cardBody p {
+                        padding: 10px;
+                        text-align: left;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 1rem;
+                        min-height: 229px;
+                    }
+                    h2 {
+                        padding: 15px;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 1.5rem;
+                    }
+                    .avatar {
+                        margin-top: -80px;
+                    }
+                    .avatar2 {
+                        width: 128px;
+                        height: 128px;
+                        margin-top: -100px;
+                    }
+                }
